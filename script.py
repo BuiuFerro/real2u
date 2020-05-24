@@ -6,14 +6,18 @@ import requests
 from io import BytesIO
 
 # Insira a URL da imagem desejada
-url = 'https://i.pinimg.com/originals/2c/c8/d9/2cc8d9b4f4255e089ddf629bdadf18fc.jpg'
+url = 'https://i.pinimg.com/564x/dd/6c/cf/dd6ccf8f48adf1fcc7eab0b2a5495661.jpg'
 
 # Recebendo a imagem de uma URL
 response = requests.get(url)
 img = Image.open(BytesIO(response.content))
 
-# Imagem com algum filtro
-img.filter(ImageFilter.CONTOUR).show()
+# Salvando a imagem com filtro
+img_filter = img.filter(ImageFilter.CONTOUR)
+img_filter.save('img.png')
 
-# Imagem original
+# Mostrando a imagem com filtro
+img_filter.show()
+
+# Mostrando a imagem original
 img.show()
