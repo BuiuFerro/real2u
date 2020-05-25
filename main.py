@@ -1,8 +1,4 @@
-from flask import Flask, jsonify, request
-
-import requests
-import subprocess
-import json
+from flask import Flask, request
 
 from script import gerar_img
 
