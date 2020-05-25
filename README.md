@@ -7,6 +7,9 @@ Repository for a job test
 Using the 3.8.3v. Access the link and look for the download section that 
 best fits your OS.
 
+**[Flask](https://flask.palletsprojects.com/en/1.1.x/)** 
+Using as server to the application.
+
 ## Creating a virtual enviroment:
 ```
 $ pip install virtualenv
@@ -24,7 +27,8 @@ OBS: pip is alread install in this Python version.
 $ pip install -r requirements
 ```
 
-## Initializing script:
+## Initializing:
 ```
-$ python script.py
+$ cd server
+$ python server.py
 ```
