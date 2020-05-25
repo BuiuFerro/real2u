@@ -5,8 +5,7 @@ import matplotlib.pyplot as plt
 import requests
 from io import BytesIO
 
-def criar_filtro(url):
-    
+def gerar_img(url):
     # Recebendo a imagem de uma URL
     response = requests.get(url)
     img = Image.open(BytesIO(response.content))
@@ -17,6 +16,3 @@ def criar_filtro(url):
 
     # Mostrando a imagem com filtro
     img_filter.show()
-
-    # Mostrando a imagem original
-# img.show()
