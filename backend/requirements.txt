@@ -1,0 +1,11 @@
+# backend
+flask
+matplotlib
+image
+requests
+
+#frontend
+npm
+yarn
+create-react-app
+react-scripts
