@@ -1,6 +1,28 @@
 # real2u
 Repository for a job test
 
+# User Interface (frontend):
+
+## Technologies:
+
+**[Yarn](https://www.npmjs.com/package/yarn)** 
+It's as package management of the frontend. A personal option over npm.
+```
+$ npm install yarn
+```
+
+**[React](https://pt-br.reactjs.org/)** 
+A JavaScript library for building the frontend.
+
+### Installing dependencies:
+```
+$ yarn add create_react-app react-scripts
+```
+### Building the client:
+```
+yarn build
+```
+
 # Server (backend):
 
 ## Technologies:
@@ -23,35 +45,13 @@ $ .\nome_da_virtualenv\Scripts\activate
 ```
 
 ### Installing dependencies with pip:
-
 OBS: pip is alread install in this Python version.
 ```
 $ pip install -r requirements
 ```
 
-### Initializing:
+### Initializing the app:
 ```
 $ cd backend
 $ python main.py
 ```
-# User Interface (frontend):
-
-## Technologies:
-
-**[Yarn](https://www.npmjs.com/package/yarn)** 
-It's as package management of the frontend. A personal option over npm.
-
-**[React](https://pt-br.reactjs.org/)** 
-A JavaScript library for building the frontend.
-
-### Installing dependencies:
-```
-$ npm install yarn
-$ yarn add create_react-app react-scripts
-```
-
-### Building the structure:
-```
-create-react-app nome_do_frontend
-```
-
