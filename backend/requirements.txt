@@ -1,11 +1,3 @@
-# backend
 flask
-matplotlib
-image
+Pillow
 requests
-
-#frontend
-npm
-yarn
-create-react-app
-react-scripts

@@ -1,7 +1,5 @@
 from PIL import Image, ImageFilter
 
-import matplotlib.pyplot as plt
-
 import requests
 from io import BytesIO
 
