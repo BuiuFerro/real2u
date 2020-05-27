@@ -3,6 +3,7 @@ import logo from './logo.svg';
 import './App.css';
 
 function App() {
+
   return (
     <div className="App">
       <header className="App-header">
@@ -10,7 +11,11 @@ function App() {
         <p>
           Edit <code>src/App.js</code> and save to reload.
         </p>
-        <p>My token = {window.token}</p>
+        <p>Insira a URL da imagem:</p>
+        <form method="POST" action=".">
+          <p><input type="text" name="url" /></p>
+          <p><input type="submit" value="Gerar filtro!" /></p>
+        </form>
         <a
           className="App-link"
           href="https://reactjs.org"
