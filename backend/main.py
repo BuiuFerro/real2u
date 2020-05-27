@@ -1,8 +1,8 @@
-from flask import Flask, request
+from flask import flask, request
 
-from script import gerar_img
+from .script import gerar_img
 
-app = Flask(__name__)
+app = flask(__name__)
 
 @app.route("/", methods=["GET", "POST"])
 def main():
